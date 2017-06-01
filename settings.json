@@ -1,0 +1,26 @@
+{
+    "window.zoomLevel": 0,
+    "go.lintOnSave": false,
+    "editor.tabSize": 2,
+    "go.toolsGopath": "/home/ilmari/Projects/go/",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.directory": true
+    },
+    "git.path": "/usr/bin/git",
+    "go.liveErrors": {
+        "enabled": true,
+        "delay": 500
+    },
+    "editor.mouseWheelZoom": true,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.acceptSuggestionOnEnter": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.renderIndentGuides": true,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false
+}
