@@ -22,5 +22,8 @@
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.renderIndentGuides": true,
     "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false
+    "telemetry.enableCrashReporter": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "todohighlight.exclude": "{**/node_modules/**,**/bower_components/**,**/dist/**,**/build/**,**/.vscode/**,**/_output/**,**/*.min.*,**/*.map,**/vendor/**}",
+    "todohighlight.include": "{**/*.js,**/*.jsx,**/*.ts,**/*.tsx,**/*.html,**/*.php,**/*.css,**/*.scss,**/*.rb,**/*.erb}"
 }
