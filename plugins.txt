@@ -1,0 +1,10 @@
+CraigMaslowski.erb
+PeterJausovec.vscode-docker
+TwentyChung.jsx
+eg2.tslint
+hbenl.vscode-firefox-debug
+lukehoban.Go
+rebornix.Ruby
+robertohuertasm.vscode-icons
+waderyan.gitblame
+wayou.vscode-todo-highlight
