@@ -18,7 +18,7 @@
     },
     "editor.mouseWheelZoom": true,
     "workbench.iconTheme": "vscode-icons",
-    "editor.acceptSuggestionOnEnter": false,
+    "editor.acceptSuggestionOnEnter": "off",
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.renderIndentGuides": true,
     "telemetry.enableTelemetry": false,
