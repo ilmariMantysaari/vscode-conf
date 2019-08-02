@@ -3,5 +3,34 @@
   {
     "key": "ctrl+[Backquote]",
     "command": "editor.action.indentLines"
+  },
+  {
+    "key": "ctrl+\\",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+=",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "ctrl+shift+`",
+    "command": "-workbench.action.terminal.new"
+  },
+  {
+    "key": "ctrl+shift+-",
+    "command": "workbench.action.zoomReset"
+  },
+  {
+    "key": "ctrl+numpad0",
+    "command": "-workbench.action.zoomReset"
+  },
+  {
+    "key": "ctrl+shift+=",
+    "command": "workbench.action.zoomIn"
+  },
+  {
+    "key": "ctrl+=",
+    "command": "-workbench.action.zoomIn"
   }
 ]

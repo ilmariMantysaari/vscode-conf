@@ -1,7 +1,7 @@
 {
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "go.lintOnSave": false,
-    "editor.tabSize": 2,
+    "editor.tabSize": 4,
     "go.toolsGopath": "/home/ilmari/Projects/go/",
     "files.exclude": {
         "**/.git": true,
@@ -25,5 +25,53 @@
     "telemetry.enableCrashReporter": false,
     "vsicons.dontShowNewVersionMessage": true,
     "todohighlight.exclude": "{**/node_modules/**,**/bower_components/**,**/dist/**,**/build/**,**/.vscode/**,**/_output/**,**/*.min.*,**/*.map,**/vendor/**}",
-    "todohighlight.include": "{**/*.js,**/*.jsx,**/*.ts,**/*.tsx,**/*.html,**/*.php,**/*.css,**/*.scss,**/*.rb,**/*.erb}"
+    "todohighlight.include": "{**/*.js,**/*.jsx,**/*.ts,**/*.tsx,**/*.html,**/*.php,**/*.css,**/*.scss,**/*.rb,**/*.erb}",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${appName}",
+    "files.associations": {
+        "Dockerfile.*": "dockerfile",
+        "*.erb": "erb"
+    },
+    "sync.gist": "0bd14544b6c3ba003658bbe0c08d2574",
+    "sync.lastUpload": "2018-04-23T11:14:43.904Z",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastDownload": "",
+    "sync.forceDownload": false,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false,
+    "sync.askGistName": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "gitlens.historyExplorer.enabled": true,
+    "terraform.format": {
+        "enable": true,
+        "ignoreExtensionsOnSave": [
+            ".tfsmurf"
+        ],
+        "formatOnSave": false
+    },
+    "editor.quickSuggestionsDelay": 10,
+    "editor.snippetSuggestions": "top",
+    "breadcrumbs.enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "editor.minimap.enabled": false,
+    "window.titleBarStyle": "native",
+    "terminal.integrated.rendererType": "dom",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.statusBar.feedback.visible": false
 }
